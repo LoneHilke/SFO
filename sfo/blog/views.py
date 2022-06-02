@@ -38,3 +38,7 @@ def post_edit(request, pk):
     else:
         form = PostForm(instance=post)
     return render(request, 'blog/post_edit.html', {'form': form})
+
+
+#fra side: https://tutorial.djangogirls.org/en/template_extending/
+#deploy: https://codeburst.io/deploy-your-django-project-for-free-140d73a2c76b
