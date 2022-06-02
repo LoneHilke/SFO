@@ -73,6 +73,11 @@ h4 {
     border-color: #149a2f;
 }
 
+div {
+    background-image:
+        url("sfo_blog_static_css_SFO-3_1.png");
+  }
+
 .btn-secondary:hover {
     color: #FFFFFF;
     background-color: #34ae2c;
